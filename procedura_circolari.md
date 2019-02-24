@@ -1,38 +1,23 @@
-#Autenticazione nuovi docenti
+#Gestione delle circolari
+La gestione delle circolari, nel sito dell'ICS di Bosisio Parini, viene fatta grazie all'uso di alcuni plugin che intergiscono tra di loro:
+* Circolari groups
+* Groups
+* User Access Manager
+* ALO Easy mail newsletter
 
-Questa è la procedura che viene seguita nell'IC di Bosisio Parini per la registrazione di nuovi utenti. A seguito della registrazione il dipendente può effettuare principalmente due azioni:
-* firmare le comunicazioni riservate a lui (circolari)
-* inviare all'ufficio di segreteria alcune istanze (permessi o altro)
+##Operazioni preliminari
+Prima di procedere all'utilizzo delle circolari è necessario predisporre l'ambiente. Attraverso l'uso del plugin Groups si creano i gruppi in cui verranno assegnati i diversi utenti. Un secondo passaggio è quello di inserire ogni utente nei gruppi che sono di sua pertinenza.
 
-##Fasi per l'iscrizione
-###Uno
-L'utente che prende servizio presso il comprensivo comunica i propri dati alla segreteria compilando a mano un apposito modulo in cui, tra le altre informazioni, comunica un indirizzo mail di riferimento
+##Creazione della circolare
+Il dirigente scolastico o un suo delegato redige la circolare direttamente in wordpress, come post circolare. Al momento della stesura della circolare definisce chi sono i destinatari. Il numero progressivo della circolare viene assegnato automaticamente al momento della creazione della stessa.
 
-###Due
-Il personale di segreteria comunica ad un incaricato i riferimenti di base relativi al nuovo dipendente tramite la compilazione di un modulo presente nel sito all'indirizzo https://www.comprensivobosisio.edu.it/riepiloghi-istanze-personale/nuovi-docenti/ (pagina con accesso riservato al personale di segreteria)
-* nome e cognome
-* indirizzo mail
-* tipo di mansione (docente o personale ATA)
-* sede di servizio
+##Pubblicazione e notifica
+Quando una circolare viene pubblicata, gli utente che sono inseriti nei gruppi a cui è destinata, una volta loggati, vedranno una notifica nella barra nera in alto.
 
-###Tre
-L'incaricato (nel caso dell'IC di Bosisio è il docente incaricato della gestione del sito web) riceve una mail con i dati comunicati dalla segreteria. Provvede a registrare il nuovo utente affidandogli una serie di profili:
-* assegnazione del ruolo (docente, ata, segreteria)
-* assegnazione ai gruppi finalizzato alla firma delle circolari
-* assegnazione ai gruppi delle newsletter per eventuali comunicazioni "mirate"
-* inserimento nel portale "Agenda di modulo" in caso di docente della scuola primaria
-* inserimento nel gruppo mail del plesso di appartenenza (nei plessi in cui è attivo il gruppo mail)
-* in caso di contratto a termine indica una data di termine del contratto e conseguente spostamento al ruolo di sottoscrittore
+Cliccando sulla notifica si viene indirizzati nella bacheca dove è possibile cliccare sulla scritta firma.
 
-###Quattro
-Il nuovo dipendente riceve una mail automatica dal sito con all'interno il link che permette di impostare una propria password personale.
+In alternativa è possibile leggere le circolari dal front-end e cliccare sul bottone blu "firma la circolare" che compare in fondo all'articolo.
 
-
-##Criticità
-Di seguito alcune osservazioni rispetto ad alcune criticità
-
-###Di sistema
-* ogni utente deve essere inserito in almeno 3 gruppi. Potrebbe essere interessante raggruppare in un'unica schermata l'assegnazione alle varie liste
-
-###Di procedure
-* troppi passaggi (segreteria -> gestore sito) 
+##Controllo delle firme
+Il personale di segreteria o il dirigente possono controllare chi sono le persone che hanno firmato le circolari andando a controllare nel back-end. In bacheca, nel menu circolari, possono vedere l'elenco delle circolari pubblicate. Per ogni circolare è presente la scritta "firma" che permette di accedere ad una tabella in cui compare la data di firma. In caso di sciopero o assemblea sindacale si può esprimere la propria scelta: si, no, presa visione.
+ 
