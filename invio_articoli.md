@@ -22,3 +22,5 @@ In alcuni casi gli articoli vengono inviati attraverso applicazioni di messaggis
 
 ## Criticità
 I mezzi di invio degli articoli sono diversi. Da preferire l'invio via mail. A fronte di una scarsa partecipazione è stato deciso di accettare qualsiasi invio, con l'intento di educare i colleghi all'utilizzo della mail.
+
+Scarsa sensibilità da parte dei docenti ad inviare informazioni riguardo le attività svolte nelle classi.
